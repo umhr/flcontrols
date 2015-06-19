@@ -30,6 +30,8 @@ package
 		private var _sp:Sprite = new Sprite();
 		public function ExampleMain() 
 		{
+			stage.scaleMode = "noScale";
+			stage.align = "TL";
 			init();
 		}
 		private function init():void 
